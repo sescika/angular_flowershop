@@ -1,0 +1,38 @@
+[
+  {
+    "id_category": "1",
+    "category_name": "best sellers"
+  },
+  {
+    "id_category": "2",
+    "category_name": "any occasion flowers"
+  },
+  {
+    "id_category": "3",
+    "category_name": "birthday flowers"
+  },
+  {
+    "id_category": "4",
+    "category_name": "just because"
+  },
+  {
+    "id_category": "5",
+    "category_name": "graduation"
+  },
+  {
+    "id_category": "6",
+    "category_name": "love and romance"
+  },
+  {
+    "id_category": "7",
+    "category_name": "rose bouquets"
+  },
+  {
+    "id_category": "8",
+    "category_name": "thank you flowers"
+  },
+  {
+    "id_category": "9",
+    "category_name": "spring flowers"
+  }
+]

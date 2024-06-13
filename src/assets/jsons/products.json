@@ -1,0 +1,571 @@
+[
+  {
+    "id_flower": "1",
+    "flower_name": "What a Treat!",
+    "active": "1",
+    "image": {
+      "id_image": "1",
+      "img_name": "1_flower",
+      "path": "assets/image/1.jpg"
+    },
+    "price": {
+      "id_price": "1",
+      "price": "163.54",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["best sellers", "any occasion flowers", "just because"]
+  },
+  {
+    "id_flower": "2",
+    "flower_name": "Blooming Bounty Bouquet",
+    "active": "1",
+    "image": {
+      "id_image": "2",
+      "img_name": "2_flower",
+      "path": "assets/image/2.jpg"
+    },
+    "price": {
+      "id_price": "2",
+      "price": "90.29",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["graduation", "rose bouquets", "thank you flowers"]
+  },
+  {
+    "id_flower": "3",
+    "flower_name": "Natural Wonders Basket",
+    "active": "1",
+    "image": {
+      "id_image": "3",
+      "img_name": "3_flower",
+      "path": "assets/image/3.jpg"
+    },
+    "price": {
+      "id_price": "3",
+      "price": "126.61",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["birthday flowers", "spring flowers", "love and romance"]
+  },
+  {
+    "id_flower": "4",
+    "flower_name": "Pretty Please",
+    "active": "1",
+    "image": {
+      "id_image": "4",
+      "img_name": "4_flower",
+      "path": "assets/image/4.jpg"
+    },
+    "price": {
+      "id_price": "4",
+      "price": "186.59",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["just because", "graduation", "thank you flowers"]
+  },
+  {
+    "id_flower": "5",
+    "flower_name": "Joyfull and Thrilling",
+    "active": "1",
+    "image": {
+      "id_image": "5",
+      "img_name": "5_flower",
+      "path": "assets/image/5.jpg"
+    },
+    "price": {
+      "id_price": "5",
+      "price": "64.34",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["birthday flowers", "any occasion flowers", "spring flowers"]
+  },
+  {
+    "id_flower": "6",
+    "flower_name": "The Sweetest Blooms",
+    "active": "1",
+    "image": {
+      "id_image": "6",
+      "img_name": "6_flower",
+      "path": "assets/image/6.jpg"
+    },
+    "price": {
+      "id_price": "6",
+      "price": "29.73",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["best sellers", "any occasion flowers", "just because"]
+  },
+  {
+    "id_flower": "7",
+    "flower_name": "Sunny Sentiments",
+    "active": "1",
+    "image": {
+      "id_image": "7",
+      "img_name": "7_flower",
+      "path": "assets/image/7.jpg"
+    },
+    "price": {
+      "id_price": "7",
+      "price": "181.56",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["love and romance", "thank you flowers", "spring flowers"]
+  },
+  {
+    "id_flower": "8",
+    "flower_name": "Brighten Your Day",
+    "active": "1",
+    "image": {
+      "id_image": "8",
+      "img_name": "8_flower",
+      "path": "assets/image/8.jpg"
+    },
+    "price": {
+      "id_price": "8",
+      "price": "51.44",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["birthday flowers", "just because", "spring flowers"]
+  },
+  {
+    "id_flower": "9",
+    "flower_name": "Dancing in Daisies",
+    "active": "1",
+    "image": {
+      "id_image": "9",
+      "img_name": "9_flower",
+      "path": "assets/image/9.jpg"
+    },
+    "price": {
+      "id_price": "9",
+      "price": "21.15",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["any occasion flowers", "just because", "graduation"]
+  },
+  {
+    "id_flower": "10",
+    "flower_name": "Six Red Roses in a Vase",
+    "active": "1",
+    "image": {
+      "id_image": "10",
+      "img_name": "10_flower",
+      "path": "assets/image/10.jpg"
+    },
+    "price": {
+      "id_price": "10",
+      "price": "53.85",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["love and romance", "rose bouquets", "best sellers"]
+  },
+  {
+    "id_flower": "11",
+    "flower_name": "FTD's Sunny Sentiments",
+    "active": "1",
+    "image": {
+      "id_image": "11",
+      "img_name": "11_flower",
+      "path": "assets/image/11.jpg"
+    },
+    "price": {
+      "id_price": "11",
+      "price": "67.16",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["any occasion flowers", "birthday flowers", "just because"]
+  },
+  {
+    "id_flower": "12",
+    "flower_name": "Woodland Greens Basket",
+    "active": "1",
+    "image": {
+      "id_image": "12",
+      "img_name": "12_flower",
+      "path": "assets/image/12.jpg"
+    },
+    "price": {
+      "id_price": "12",
+      "price": "122.82",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["spring flowers", "thank you flowers", "best sellers"]
+  },
+  {
+    "id_flower": "13",
+    "flower_name": "Sweet Thoughts",
+    "active": "1",
+    "image": {
+      "id_image": "13",
+      "img_name": "13_flower",
+      "path": "assets/image/13.jpg"
+    },
+    "price": {
+      "id_price": "13",
+      "price": "158.23",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["graduation", "just because", "any occasion flowers"]
+  },
+  {
+    "id_flower": "14",
+    "flower_name": "Teleflora's Be My Love",
+    "active": "1",
+    "image": {
+      "id_image": "14",
+      "img_name": "14_flower",
+      "path": "assets/image/14.jpg"
+    },
+    "price": {
+      "id_price": "14",
+      "price": "192.78",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["birthday flowers", "love and romance", "rose bouquets"]
+  },
+  {
+    "id_flower": "15",
+    "flower_name": "Timeless Romance",
+    "active": "1",
+    "image": {
+      "id_image": "15",
+      "img_name": "15_flower",
+      "path": "assets/image/15.jpg"
+    },
+    "price": {
+      "id_price": "15",
+      "price": "188.52",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["thank you flowers", "any occasion flowers", "graduation"]
+  },
+  {
+    "id_flower": "16",
+    "flower_name": "Deluxe Red Rose Bouquet",
+    "active": "1",
+    "image": {
+      "id_image": "16",
+      "img_name": "16_flower",
+      "path": "assets/image/16.jpg"
+    },
+    "price": {
+      "id_price": "16",
+      "price": "84.12",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["love and romance", "rose bouquets", "any occasion flowers"]
+  },
+  {
+    "id_flower": "17",
+    "flower_name": "White Orchid Planter",
+    "active": "1",
+    "image": {
+      "id_image": "17",
+      "img_name": "17_flower",
+      "path": "assets/image/17.jpg"
+    },
+    "price": {
+      "id_price": "17",
+      "price": "40.32",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["best sellers", "thank you flowers", "spring flowers"]
+  },
+  {
+    "id_flower": "18",
+    "flower_name": "Winter Oasis",
+    "active": "1",
+    "image": {
+      "id_image": "18",
+      "img_name": "18_flower",
+      "path": "assets/image/18.jpg"
+    },
+    "price": {
+      "id_price": "18",
+      "price": "160.10",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": [
+      "any occasion flowers",
+      "thank you flowers",
+      "love and romance"
+    ]
+  },
+  {
+    "id_flower": "19",
+    "flower_name": "Dreamland Bouquet",
+    "active": "1",
+    "image": {
+      "id_image": "19",
+      "img_name": "19_flower",
+      "path": "assets/image/19.jpg"
+    },
+    "price": {
+      "id_price": "19",
+      "price": "31.51",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["graduation", "birthday flowers", "any occasion flowers"]
+  },
+  {
+    "id_flower": "20",
+    "flower_name": "Admiration Luxury Bouquet",
+    "active": "1",
+    "image": {
+      "id_image": "20",
+      "img_name": "20_flower",
+      "path": "assets/image/20.jpg"
+    },
+    "price": {
+      "id_price": "20",
+      "price": "53.43",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["thank you flowers", "best sellers", "love and romance"]
+  },
+  {
+    "id_flower": "21",
+    "flower_name": "Serenity Bouquet",
+    "active": "1",
+    "image": {
+      "id_image": "21",
+      "img_name": "21_flower",
+      "path": "assets/image/21.jpg"
+    },
+    "price": {
+      "id_price": "21",
+      "price": "76.54",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["any occasion flowers", "love and romance", "best sellers"]
+  },
+  {
+    "id_flower": "22",
+    "flower_name": "Whimsical White",
+    "active": "1",
+    "image": {
+      "id_image": "22",
+      "img_name": "22_flower",
+      "path": "assets/image/22.jpg"
+    },
+    "price": {
+      "id_price": "22",
+      "price": "45.87",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["spring flowers", "birthday flowers", "just because"]
+  },
+  {
+    "id_flower": "23",
+    "flower_name": "Elegant Embrace",
+    "active": "1",
+    "image": {
+      "id_image": "23",
+      "img_name": "23_flower",
+      "path": "assets/image/23.jpg"
+    },
+    "price": {
+      "id_price": "23",
+      "price": "38.29",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["graduation", "love and romance", "thank you flowers"]
+  },
+  {
+    "id_flower": "24",
+    "flower_name": "Blushing Beauty",
+    "active": "1",
+    "image": {
+      "id_image": "24",
+      "img_name": "24_flower",
+      "path": "assets/image/24.jpg"
+    },
+    "price": {
+      "id_price": "24",
+      "price": "29.47",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["best sellers", "spring flowers", "birthday flowers"]
+  },
+  {
+    "id_flower": "25",
+    "flower_name": "Floral Fantasy",
+    "active": "1",
+    "image": {
+      "id_image": "25",
+      "img_name": "25_flower",
+      "path": "assets/image/25.jpg"
+    },
+    "price": {
+      "id_price": "25",
+      "price": "53.12",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["just because", "love and romance", "any occasion flowers"]
+  },
+  {
+    "id_flower": "26",
+    "flower_name": "Garden Delight",
+    "active": "1",
+    "image": {
+      "id_image": "26",
+      "img_name": "26_flower",
+      "path": "assets/image/26.jpg"
+    },
+    "price": {
+      "id_price": "26",
+      "price": "82.34",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["graduation", "birthday flowers", "thank you flowers"]
+  },
+  {
+    "id_flower": "27",
+    "flower_name": "Sunlit Meadows",
+    "active": "1",
+    "image": {
+      "id_image": "27",
+      "img_name": "27_flower",
+      "path": "assets/image/27.jpg"
+    },
+    "price": {
+      "id_price": "27",
+      "price": "61.43",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["love and romance", "best sellers", "spring flowers"]
+  },
+  {
+    "id_flower": "28",
+    "flower_name": "Pure Bliss",
+    "active": "1",
+    "image": {
+      "id_image": "28",
+      "img_name": "28_flower",
+      "path": "assets/image/28.jpg"
+    },
+    "price": {
+      "id_price": "28",
+      "price": "47.89",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": [
+      "any occasion flowers",
+      "birthday flowers",
+      "thank you flowers"
+    ]
+  },
+  {
+    "id_flower": "29",
+    "flower_name": "Heavenly Harmony",
+    "active": "1",
+    "image": {
+      "id_image": "29",
+      "img_name": "29_flower",
+      "path": "assets/image/29.jpg"
+    },
+    "price": {
+      "id_price": "29",
+      "price": "55.67",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["spring flowers", "just because", "love and romance"]
+  },
+  {
+    "id_flower": "30",
+    "flower_name": "Rose Delight",
+    "active": "1",
+    "image": {
+      "id_image": "30",
+      "img_name": "30_flower",
+      "path": "assets/image/30.jpg"
+    },
+    "price": {
+      "id_price": "30",
+      "price": "39.12",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["rose bouquets", "best sellers", "any occasion flowers"]
+  },
+  {
+    "id_flower": "31",
+    "flower_name": "Peachy Perfection",
+    "active": "1",
+    "image": {
+      "id_image": "31",
+      "img_name": "31_flower",
+      "path": "assets/image/31.jpg"
+    },
+    "price": {
+      "id_price": "31",
+      "price": "78.45",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["birthday flowers", "just because", "graduation"]
+  },
+  {
+    "id_flower": "32",
+    "flower_name": "Timeless Beauty",
+    "active": "1",
+    "image": {
+      "id_image": "32",
+      "img_name": "32_flower",
+      "path": "assets/image/32.jpg"
+    },
+    "price": {
+      "id_price": "32",
+      "price": "84.97",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["any occasion flowers", "love and romance", "spring flowers"]
+  },
+  {
+    "id_flower": "33",
+    "flower_name": "Radiant Charm",
+    "active": "1",
+    "image": {
+      "id_image": "33",
+      "img_name": "33_flower",
+      "path": "assets/image/33.jpg"
+    },
+    "price": {
+      "id_price": "33",
+      "price": "32.21",
+      "currency_code": "EUR",
+      "effective_date": "2024-12-12"
+    },
+    "categories": ["thank you flowers", "best sellers", "graduation"]
+  }
+]

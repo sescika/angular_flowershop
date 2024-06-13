@@ -1,0 +1,24 @@
+<div class="row">
+
+    <div class="col-12 col-lg-4" *ngFor="let product of dataSource">
+        <mat-card class="example-card mb-3">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>{{product.flower_name}}</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image [src]="product.image.path" [alt]="product.image.img_name">
+            <mat-card-content>
+                <p class="text-center my-2  ">
+                    <span class="fw-bold">{{product.price.price}}</span> &euro;
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-mini-fab class="mx-auto" (click)="addToCart(product.id_flower)">
+                    <mat-icon>add_shopping_cart</mat-icon>
+                </button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+
+</div>

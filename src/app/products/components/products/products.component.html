@@ -1,0 +1,20 @@
+<div class="row my-3">
+    <div class="col-12 col-lg-3">
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Search products . . .</mat-label>
+                <input matInput [(ngModel)]="keyword" (input)="onSearchChange()" />
+                <mat-icon matSuffix>search</mat-icon>
+            </mat-form-field>
+
+            @for (cat of catArr; track cat) {
+            <mat-checkbox class="example-margin text-uppercase"
+                (change)="onCategoryChange(cat.category_name, $event.checked)"
+                [value]="cat.id_category">{{cat.category_name}}</mat-checkbox>
+            }
+        </div>
+    </div>
+    <div class="col-12 col-lg-9">
+        <app-product [dataSource]="filteredArray"></app-product>
+    </div>
+</div>
