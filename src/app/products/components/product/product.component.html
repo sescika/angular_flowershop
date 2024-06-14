@@ -6,7 +6,7 @@
                 <div mat-card-avatar class="example-header-image"></div>
                 <mat-card-title>{{product.flower_name}}</mat-card-title>
             </mat-card-header>
-            <img mat-card-image [src]="product.image.path" [alt]="product.image.img_name">
+            <img mat-card-image [src]="product.image.path" [alt]="product.image.img_name" (click)="productDetails(product.id_flower)"/>
             <mat-card-content>
                 <p class="text-center my-2  ">
                     <span class="fw-bold">{{product.price.price}}</span> &euro;

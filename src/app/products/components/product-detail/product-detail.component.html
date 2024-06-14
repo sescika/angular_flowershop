@@ -1,0 +1,17 @@
+<div class="row mt-5">
+    <div class="col-12 col-lg-6">
+        <img [src]="productData.image.path" [alt]="productData.image.img_name" />
+    </div>
+    <div class="col-12 col-lg-6">
+        <h1>{{productData.flower_name}}</h1>
+        <mat-divider></mat-divider>
+        <h4 class="text-end"> {{productData.price.price}} &euro;</h4>
+        <h5>Categories:</h5>
+        <ul>
+            @for (cat of productData.categories; track $index) {
+            <li> {{cat}}</li>
+            }
+        </ul>
+
+    </div>
+</div>

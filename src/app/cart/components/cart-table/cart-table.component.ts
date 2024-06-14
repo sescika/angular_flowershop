@@ -66,14 +66,16 @@ export class CartTableComponent implements OnInit, OnDestroy {
   }
 
   removeItemFromCart(id: number): void {
-    let filteredCart = this.cartData.filter((x) => x.id !== id);
-    if (filteredCart.length === 0) {
-      this.sharedService.lsRemoveItem('cart');
-    } else {
-      this.sharedService.lsSetItem('cart', filteredCart);
-    }
+    if (confirm('Are you sure you want to remove this product?')) {
+      let filteredCart = this.cartData.filter((x) => x.id !== id);
+      if (filteredCart.length === 0) {
+        this.sharedService.lsRemoveItem('cart');
+      } else {
+        this.sharedService.lsSetItem('cart', filteredCart);
+      }
 
-    this.getTotal();
+      this.getTotal();
+    }
   }
 
   getTotal(): void {

@@ -14,6 +14,7 @@ import { SharedService } from '../../../services/shared.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatTableDataSource } from '@angular/material/table';
 import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product',
@@ -31,7 +32,8 @@ export class ProductComponent implements OnInit, AfterViewInit, OnDestroy {
   constructor(
     private sharedService: SharedService,
     private snackBar: MatSnackBar,
-    private changeDetector: ChangeDetectorRef
+    private changeDetector: ChangeDetectorRef,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -95,5 +97,10 @@ export class ProductComponent implements OnInit, AfterViewInit, OnDestroy {
       });
     }
     this.sharedService.lsSetItem('cart', cart);
+  }
+
+  productDetails(id: number): void {
+    // let productData = this.dataSource.find((x) => x.id_flower === id);
+    this.router.navigate(['/products', id]);
   }
 }
